@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Analógico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Relógio Analógico</h1>
+    </header>
+    
+    <div class="analog-clock">
+        <div class="dash-hour">
+            <div class="dash-hour--area" style="transform: rotate(0deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(30deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(60deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(90deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(120deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(150deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(180deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(210deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(240deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(270deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(300deg)"><div class="dash"></div></div>
+            <div class="dash-hour--area" style="transform: rotate(330deg)"><div class="dash"></div></div>
+        </div>
+        
+        <div class="pointers">
+            <div class="pointer pointer-seconds"></div>
+            <div class="pointer pointer-minutes"></div>
+            <div class="pointer pointer-hours"></div>
+            <div class="pointer-circle"></div>
+        </div>
+        <div class="digital-clock">
+            <span>--:--:--</span>
+        </div>
+    </div>
+
+    <div class="continuous-pointer-area">
+        <label class="continuous-pointer">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+        </label>
+        <p>Ponteiro Contínuo</p>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por Renan Reis</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
