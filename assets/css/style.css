@@ -198,27 +198,6 @@ footer {
     margin-right: 1.2em;
 }
 
-.github-device {
-    position: fixed;
-    bottom: -2em;
-    right: -2em;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-
-    width: 6em;
-    height: 6em;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 0 1em #333;
-}
-
-.github-device img {
-    width: 50%;
-    height: auto;
-    margin: 0.7em 1.5em 0 0;
-}
-
 @media (max-width: 55vh) {
     .analog-clock {
         width: 85vw;
