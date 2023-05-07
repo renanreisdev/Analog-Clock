@@ -39,9 +39,7 @@ inputContinuosPointer.addEventListener('change', (e) => {
     } 
 });
 
-function fixZeroLeft(element) {
-    return element > 9 ? element : `0${element}`;
-}
+const fixZeroLeft = (time) => time > 9 ? time : `0${time}`;
 
 updateClock();
 setInterval(updateClock, 10);
