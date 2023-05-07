@@ -159,6 +159,64 @@ header h1 {
 
 footer {
     color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+.github {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.github div {
+    position: fixed;
+    bottom: -2em;
+    right: -2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 1em #333;
+}
+
+.github div:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.6s;
+    color: #000;
+}
+
+.github div img {
+    width: 30%;
+    height: auto;
+    margin: 1.5em 1em 1.2em 0;
+}
+
+.github div p {
+    margin-right: 1.2em;
+}
+
+.github-device {
+    position: fixed;
+    bottom: -2em;
+    right: -2em;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 1em #333;
+}
+
+.github-device img {
+    width: 50%;
+    height: auto;
+    margin: 0.7em 1.5em 0 0;
 }
 
 @media (max-width: 55vh) {
@@ -181,5 +239,51 @@ footer {
     
     .pointer-hours {
         width: 26vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .github div {
+        width: 6em;
+        height: 6em;
+    }
+
+    .github div img {
+        width: 50%;
+        margin: 0.7em 1.5em 1em 0;
+    }
+
+    .github div:hover {
+        width: 10em;
+        height: 10em;
+    }
+
+    .github div:hover img {
+        transition: 0.6s;
+        width: 30%;
+        margin: 1.5em 1em 1.2em 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .github div {
+        width: 3.8em;
+        height: 3.8em;
+    }
+
+    .github div img {
+        width: 30%;
+        margin: 0.5em 1.7em 1em 0;
+    }
+
+    .github div:hover {
+        width: 10em;
+        height: 10em;
+    }
+
+    .github div:hover img {
+        transition: 0.6s;
+        width: 30%;
+        margin: 1.5em 1em 1.2em 0;
     }
 }
