@@ -1,6 +1,6 @@
 # Analog-Clock
 
-Projecte developed to improve my skills in HTML, CSS and Javascript.
+Project developed to improve my skills in HTML, CSS and Javascript.
 
 A digital clock and an analog clock were created using only css, you can choose the traditional second pointer or the continuous style.
 
